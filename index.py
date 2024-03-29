@@ -1,4 +1,8 @@
-import this
+help("False")
+
+# import this
+
+
 # import webbrowser
 # import requests
 
