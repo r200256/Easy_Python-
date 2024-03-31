@@ -1,4 +1,72 @@
-help("False")
+# vowels = "aeiu"
+# vowels_set = {"a","e","i","o","u"}
+# vowels_set = ("a","e","i","o","u")
+vowels_dict = {"a":"apple",
+               "e":"elephant",
+               "i":"impala",
+               "o":"ocelot",
+               "u":"unicorn"}
+letter = "o"
+if letter in vowels_dict:
+    print(letter,"is a vowel")
+else:
+    print("NO Text")
+
+# letter = 'o'
+# if letter == 'a' or letter == 'e' \
+#     or letter == 'i' \
+#     or letter == 'o' \
+#     or letter == 'u':
+#     print(letter, 'is a vowel')
+# else:
+#     print(letter,"is not a vowel")
+
+# some_list = None
+# if some_list:
+#     print("True")
+# else:
+#     print("False")
+
+# False
+
+# False
+# None
+# 0
+# 0.0
+# ''
+# [] список
+# () кортеж
+# {} словарь
+# set() пустое множество
+
+# furry = False
+# large = True
+# if furry:
+#     if large:
+#         print("It's a yeti.")
+#     else:
+#         print("It's a cat!")
+# else:
+#     if large:
+#         print("it's a whale!")
+#     else:
+#         print("it's a human. Or hairless cat.")
+
+
+
+# sum = 1 + \
+#       2 + \
+#       3 + \
+#       4      
+# print(sum)
+
+
+# print("No comment: quotes make the # harmless.")
+
+# 60 с/мин * 60 мин/ч * 24 ч/день
+# seconds_per_day = 86400 #adadad
+
+# help("False")
 
 # import this
 
