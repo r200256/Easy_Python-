@@ -1,16 +1,107 @@
+crypto_list = ['Yeti', 'Bigfoot', 'Loch Ness Monster']
+crypto_string = ", ".join(crypto_list)
+print(crypto_string)
+
+
+# name = "Из строки можно извлечь подстроку"
+# new_str = name.split(" ")
+# print(new_str)
+
+# print(len(""))
+# print(name[5:])
+# print(name[5:-3])
+# print(name[5:20])
+# print(name[-5:-2])
+# print(name[::])
+# print(name[::])
+# print(name[-1::-1])
+# print(name[::-1])
+# print(name[-50::])
+# print(name[:100:])
+# print(name[6:5])
+# print(name, id(name))
+# name_new = name.replace('H', "P")
+# print(name_new, id(name_new))
+# name_two = "P" + name[1:]
+# print(name_two, id(name_two))
+
+
+# letters = 'abcdefghijklmnopqrstuvwxyz'
+# print(letters[0])
+# print(letters[1])
+# letters[9] = 20
+# print(letters[200])
+# print(letters[-1])
+# start = "Na " * 4 + "\n\t"
+# middle = "Hey " * 3 + "\n\t\t"
+# end = "Goodbye."
+# print(start + start + middle + end)
+
+# a = "Duck."
+# b = a
+# c = "Grey Duck!"
+# print(a + b + c)
+# print(a, b, c)
+
+# palindrome = ("+++"
+#               "---"
+#               "___")
+# palindrome = "+++""---""___"
+# palindrome = "+++" + "---" + "___"
+# palindrome = r'''Boys and girls, come out to play.
+#     The moon doth shine as bright as day.'''
+# print(palindrome)
+
+# poem = '''There was a Young Lady of Norway,
+#     Who casually sat in a doorway;
+#         When the door squeezed her flat,
+#             She exclaimed, "What of that?"
+#                 This courageous Young Lady of Norway.'''
+
+# print(poem)
+
+# secret = 7
+# guess = 5
+# if guess < secret:
+#     print("too low")
+# elif guess > secret:
+#     print(" too hight")
+# else:
+#     print("just right")
+
+
+# tweet_limit = 20
+# tweet_string = "Blah" * 50
+# # diff = tweet_limit - len(tweet_string)
+# if diff := tweet_limit - len(tweet_string) >= 0:
+#     print("Afifting tweet")
+
+# else:
+#     print("Went over by", abs(diff))
+#     print(len(tweet_string))
+#     print(tweet_limit - len(tweet_string))
+
+# tweet_limit = 280
+# tweet_string = "Blah" * 50
+# diff = tweet_limit - len(tweet_string)
+# if diff >= 0:
+#     print("Afifting tweet")
+# else:
+#     print("Went over by", abs(diff))
+
 # vowels = "aeiu"
 # vowels_set = {"a","e","i","o","u"}
 # vowels_set = ("a","e","i","o","u")
-vowels_dict = {"a":"apple",
-               "e":"elephant",
-               "i":"impala",
-               "o":"ocelot",
-               "u":"unicorn"}
-letter = "o"
-if letter in vowels_dict:
-    print(letter,"is a vowel")
-else:
-    print("NO Text")
+# vowels_dict = {"a":"apple",
+#                "e":"elephant",
+#                "i":"impala",
+#                "o":"ocelot",
+#                "u":"unicorn"}
+# letter = "o"
+# if letter in vowels_dict:
+#     print(letter,"is a vowel")
+# else:
+#     print("NO Text")
 
 # letter = 'o'
 # if letter == 'a' or letter == 'e' \
@@ -53,11 +144,10 @@ else:
 #         print("it's a human. Or hairless cat.")
 
 
-
 # sum = 1 + \
 #       2 + \
 #       3 + \
-#       4      
+#       4
 # print(sum)
 
 
