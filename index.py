@@ -1,7 +1,81 @@
-crypto_list = ['Yeti', 'Bigfoot', 'Loch Ness Monster']
-crypto_string = ", ".join(crypto_list)
-print(crypto_string)
+song = """When an eel grabs your arm,
+And it causes great harm,
+That's - a moray!"""
+print(song.replace(" m", " M"))
 
+# thing = 'wraith'
+# place = 'window'
+
+# new_str = f'The {thing} is in the {place}'
+# print(new_str, id(new_str))
+
+# new_str = f'The {thing.capitalize()} is in the {place.center(20)}'
+# print(new_str, id(new_str))
+
+# new_str = f'The {thing.capitalize():!>10} is in the {place.center(20)}'
+# print(new_str, id(new_str))
+
+# new_str = f'The {thing=} is in the {place=}'
+# print(new_str, id(new_str))
+
+# new_str = f'The {thing[-4:].capitalize()} is in the {place.center(20)}'
+# print(new_str, id(new_str))
+
+# new_str = 'The {} is at the {}'.format(thing, place)
+# print(new_str)
+# new_str = 'The {:!^10s} is at the {}.'.format(thing, place)
+# print(new_str)
+
+
+# thing = "woodchick"
+# place = 'lake'
+# d = {'thing': 'duck', 'place': 'bathtub'}
+# new_str = 'The {0[thing]} is the {0[place]}.'.format(d)
+# # new_str = 'The {0[thing]} is the {0[place]}.'.format(d)
+# print(new_str)
+# new_str = 'The {} is the {}.'.format(thing, place)
+# print(new_str)
+# new_str = 'The {1} is the {0}.'.format(thing, place)
+# print(new_str)
+# new_str = 'The {thing} is the {place}.'.format(thing="duck", place="bathtub")
+# print(new_str)
+# new_str = 'The {thing} is the {place}.'.format(place="bathtub", thing="duck")
+# print(new_str)
+# actor = "Richard Gere"
+# cat = "Chester"
+# weight = 28
+# new_str = "My wife's favorite actor is %s" % actor
+# print(new_str)
+# new_str_2 = "Our cat %s weight %s pounds" % (cat, weight)
+# print(new_str_2)
+
+# poem = "'all that doth flow we cannot liquid name\
+# Or else would fire and water be the same;\
+# But that is liquid which is moist and wet\
+# Fire that property can never get.\
+# Then 'tis not cold that doth the fire put out\
+# But 'tis the wet that makes it die, no doubt.'"
+# print(poem, "\n____")
+# # print(poem.capitalize())
+# # print(poem.title())
+# # print(poem.upper())
+# # print(poem.lower())
+# # print(poem.swapcase())
+# print(poem.center(100))
+
+
+# print(poem.count('d'))
+# print(poem.isalnum())
+# print(poem[:13], len(poem))
+# print(poem.startswith("All"))
+# print(poem.endswith("makes it die, no doubt."))
+# print(poem.find('which1'))
+# print(poem.index("which1"))
+
+# world = "!!!   ! earth !!!!!"
+# str1 = world.strip("!")
+# print(world)
+# print(str1)
 
 # name = "Из строки можно извлечь подстроку"
 # new_str = name.split(" ")
