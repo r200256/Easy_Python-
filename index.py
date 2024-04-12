@@ -1,7 +1,134 @@
-song = """When an eel grabs your arm,
-And it causes great harm,
-That's - a moray!"""
-print(song.replace(" m", " M"))
+value = tuple(range(3))
+value2 = tuple("ABCD")
+print(value, value2)
+value, value2 = value2, value
+print(value, value2)
+
+# print(value)
+# a, b, c, d = value
+# print(a, b, c)
+
+
+# one_tuple = "dsfkjshfkj"
+# print(type(one_tuple), id(one_tuple), one_tuple)
+# one_tuple = 'jsdhfkshdf',
+# print(type(one_tuple), id(one_tuple), one_tuple)
+# one_tuple = ('jsdhfkshdf', 'dadadasd',)
+# print(type(one_tuple), id(one_tuple), one_tuple)
+
+
+# number = 1
+# guess_me = 2
+# for number in range(10):
+#     if number < guess_me:
+#         print("too low")
+#     elif number == guess_me:
+#         print('found it!')
+#         break
+#     else:
+#         # number > guess_me:
+#         print('oops')
+#         break
+
+# number = 1
+# guess_me = 7
+# while True:
+#     if number < guess_me:
+#         print('too low')
+#     if guess_me == number:
+#         print('found it!')
+#         break
+#     if number > guess_me:
+#         print('oops !')
+#         break
+#     number += 1
+
+
+# if guess_me < number 'too low'
+# if guess_me == number 'found it!' breack
+# if guess_me > number 'oops' breack number += 1
+
+
+# for x in [3, 2, 1, 0]:
+#     print(x)
+
+# word = 'thud'
+# for letter in word:
+#     if letter == "u":
+#         break
+#         # continue
+#     print(letter)
+# else:
+#     print("Ahtung Breck")
+
+# offset = 0
+# while offset < len(word):
+# #     print(word[offset])
+# #     offset += 1
+
+# for letter in word:
+#     print(letter)
+
+# number = 1
+# while number < 10:
+#     if number == 3:
+#         number += 1
+#         # continue
+#         break
+#     print(number)
+#     number += 1
+# else:
+#     print("End While")
+
+
+# numbers = [1, 3, 5]
+# position = 0
+# while position < len(numbers):
+#     number = numbers[position]
+#     if number % 2 == 0:
+#         print('Found even number', number)
+#         break
+#     position += 1
+# else:  # break не вызываем
+#     print('No even number found')
+
+
+# numbers = [1, 3, 5]
+# position = 2
+# while True:
+#     number = numbers[position]
+#     if number % 2 == 0:
+#         print('Found even number', number)
+#         break
+#     position += 1
+# else:
+#     print("No even number found")
+
+
+# while True:
+#     value = input("Integer, please [q to quit]: ")
+#     if value == 'q':
+#         break
+#     number = int(value)
+#     if number % 2 == 0:
+#         continue
+#     print(number, "squared is", number*number)
+
+# while True:
+#     stuff = input("String to capitalize [type q to quit]: ")
+#     if stuff == "q":
+#         break
+#     print(stuff.title())
+
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count += 1
+
+# song = """When an eel grabs your arm,
+# And it causes great harm,
+# That's - a moray!"""
+# print(song.replace(" m", " M"))
 
 # thing = 'wraith'
 # place = 'window'
